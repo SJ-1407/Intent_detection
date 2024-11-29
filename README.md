@@ -11,7 +11,7 @@ The training code and results are available in the `Intent_Detection_Results.ipy
 
 ## 2. Predicting Intent for New Sentences
 To predict the intent using the trained model:
-- Run the `Intent_Detection_Predict.ipynb` notebook.  
+- Run the `Intent_Detection_Predict_New.ipynb` notebook.  
 - This notebook uses the model uploaded to Hugging Face, eliminating the need to retrain the model.  
 - Update the **PDF file path** in the notebook to point to your file.
 - Make sure the pdf is the same softmattress_train.csv , as I use it to get the labels.
